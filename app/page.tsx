@@ -120,7 +120,7 @@ export default function ComingSoonPage() {
           style={{
             display: "flex",
             justifyContent: "center",
-            marginBottom: 40,
+            marginBottom: 16,
           }}
         >
           <div
@@ -139,12 +139,26 @@ export default function ComingSoonPage() {
             fontSize: "clamp(28px, 6vw, 48px)",
             fontWeight: 800,
             fontFamily: "'Plus Jakarta Sans', sans-serif",
-            marginBottom: 16,
+            marginBottom: 8,
             letterSpacing: "-0.02em",
           }}
         >
           CvKaro
         </h1>
+
+        {/* Tagline */}
+        <p
+          style={{
+            fontSize: "clamp(14px, 3vw, 18px)",
+            fontWeight: 600,
+            color: "#22c55e",
+            marginBottom: 24,
+            fontFamily: "'Plus Jakarta Sans', sans-serif",
+            letterSpacing: "-0.01em",
+          }}
+        >
+          CV Karo Job Pao
+        </p>
 
         {/* Coming Soon Badge */}
         <div
@@ -194,7 +208,6 @@ export default function ComingSoonPage() {
             color: "rgba(255,255,255,0.5)",
             marginBottom: 40,
             maxWidth: 500,
-            margin: "0 auto 40px",
           }}
         >
           CvKaro helps you build better resumes, beat ATS algorithms, understand skill gaps, and land jobs faster. All powered by AI.
