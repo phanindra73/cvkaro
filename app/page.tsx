@@ -208,6 +208,7 @@ export default function ComingSoonPage() {
             color: "rgba(255,255,255,0.5)",
             marginBottom: 40,
             maxWidth: 500,
+            margin: "0 auto 40px",
           }}
         >
           CvKaro helps you build better resumes, beat ATS algorithms, understand skill gaps, and land jobs faster. All powered by AI.
